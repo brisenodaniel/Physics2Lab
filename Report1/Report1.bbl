@@ -1,0 +1,203 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Flinn}{misc}{}
+    \list{publisher}{1}{%
+      {Flinn Scientific}%
+    }
+    \verb{url}
+    \verb https://www.flinnsci.com/electric-plume/ap5986/
+    \endverb
+    \field{journaltitle}{Electric Plume}
+  \endentry
+
+  \entry{scienceworld}{misc}{}
+    \verb{url}
+    \verb https://www.scienceworld.ca/resources/activities/van-de-graaff-genera
+    \verb tor-wonders
+    \endverb
+    \field{journaltitle}{Science World British Columbia}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{davis_2012}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DS}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Shethar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {YouTube}%
+    }
+    \strng{namehash}{DS1}
+    \strng{fullhash}{DS1}
+    \field{labelnamesource}{author}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=j6F_8YWxUP0
+    \endverb
+    \field{journaltitle}{YouTube}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Champ}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Detection of Static Electricity}
+    \verb{url}
+    \verb https://www.school-for-champions.com/science/static_detection.htm#.XW
+    \verb wvR5NKi3U
+    \endverb
+    \field{journaltitle}{Detection of Static Electricity by Ron Kurtus -
+  Physics Lessons: School for Champions}
+  \endentry
+
+  \entry{dickie}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DB}{%
+         family={Dickie},
+         familyi={D\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DB1}
+    \strng{fullhash}{DB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Physics 30 Worksheet No. 6: Coulomb’s Law}
+  \endentry
+
+  \entry{Ele}{book}{}
+    \list{publisher}{1}{%
+      {Study.com}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Electroscope Setup}
+    \verb{url}
+    \verb https://study.com/academy/lesson/electroscope-experiment.html
+    \endverb
+    \field{journaltitle}{Study.com}
+  \endentry
+
+  \entry{greenslade}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GTB}{%
+         family={Greenslade},
+         familyi={G\bibinitperiod},
+         given={Thomas\bibnamedelima B.},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GTB1}
+    \strng{fullhash}{GTB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Electric Whirl and Orrery}
+    \verb{url}
+    \verb http://physics.kenyon.edu/EarlyApparatus/Static_Electricity/Electric_
+    \verb Whirl/Electric_Whirl.html
+    \endverb
+    \field{journaltitle}{Electric Whirl}
+  \endentry
+
+  \entry{Vander:2}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={Imagesco.com},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Images SI}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Van De Graaff Generator}
+    \verb{url}
+    \verb https://www.imagesco.com/articles/high-voltage/van_de_graaf.html
+    \endverb
+    \field{journaltitle}{Van De Graaff Generator Article}
+  \endentry
+
+  \entry{rim}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={RimstarOrg},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {YouTube}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=nA4aCd5qFWs&t=166s
+    \endverb
+    \field{journaltitle}{YouTube}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Vander}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{Van de Graaff generator}
+    \verb{url}
+    \verb http://macao.communications.museum/eng/exhibition/secondfloor/MoreInf
+    \verb o/2_3_7_VanGraafGenerator.html
+    \endverb
+    \field{journaltitle}{Van de Graaff generator}
+  \endentry
+
+  \entry{Wim}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Wimshurst}
+    \verb{url}
+    \verb https://rimstar.org/science_electronics_projects/wimshurst_machine.ht
+    \verb m
+    \endverb
+    \field{journaltitle}{Wimshurst machine}
+  \endentry
+\enddatalist
+\endinput
