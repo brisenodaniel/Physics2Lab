@@ -9,6 +9,7 @@
 \usepackage{amsthm}
 \usepackage{enumitem}
 \usepackage{stmaryrd}
+\usepackage{multirow}
 \usepackage[backend=bibtex,style=numeric]{biblatex}
 \bibliography{Biblio}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
@@ -24,6 +25,7 @@
 \smallgraph = 3in
 \newdimen\tinygraph
 \tinygraph = 1.5in
+\renewcommand{\arraystretch}{1.5}
 \begin{document}
 \maketitle
 \section{abstract}
@@ -130,16 +132,63 @@ Another electrostatic generator utilized in this lab is the Wimshurst influence 
 
 \indent In this study of electrostatics, we observed the movement of charge between objects by means of friction and induction. In particular, we studied the generation of static electricity using a Van de Graaff generator, a Wimshurst influence machine, and an electroscope. Utilizing a grounded Faraday Pail integrated with a Vernier Charge Sensor, we quantified the charge of various objects as well as our own bodies, which were grounded to the metal plane upon which the Faraday Pail sat. These experiments have provided us an opportunity to not only have a less abstract perception of static electricity, but we have a greater understanding and appreciation for the various physical phenomena that occurs in the world around us.
 
-\section{Charge Generator Machines} 
-\indent In this portion of the experiment, we wanted to study various apparatuses that create electrostatic charges. Specifically, we selected ---, and charged each object by rubbing it with---. After being charged, we brought these objects in proximity to a Van de Graaff generator. Further, we brought an Electric Whirl in proximity to the generator and also mounted an Electric Plume on top of the dome. After recharging ---, we brought each of these objects in proximity to the copper wire of the Electroscope. In addition to working with the Electroscope, we also induced an imbalance charge in a disk of the Wimshurst influence machine through using a charged ---. We then turned the crank of this apparatus. The following data were collected and analyzed: 
-
-
 \section{Electrostatic Experiments}
-\indent In this set of experiments, we wanted to further study and quantify the electrostatic charges that exist upon various objects, including our bodies. As humidity influences the flow of charge, we measured the relative humidity of the lab using a Relative Humidity Sensor that was integrated with a Vernier LabQuest. With respect to the quantification of electrostatic charge, we placed the cage encompassing the Faraday Pail on top of a metal grounding plane. The black lead of the Vernier Charge Sensor was clipped onto the grounding plane, and the red lead was clipped onto the Faraday Pail. The Charge Sensor was then connected to the data-collection interface, and the range switch was set to +/- 10 V. After the grounding wire was clipped to the cage and the grounding plane, the Charge Sensor was reset. 
+\indent In this set of experiments, we wanted to further study and quantify the electrostatic charges that exist upon various objects, including our bodies. As humidity influences the flow of charge, we measured the relative humidity of the lab at 51.66\%. In order to measure electrostatic charge, we placed the cage encompassing the Faraday Pail on top of a metal grounding plane, and measured the charge of the pail (and thus indirectly measured the charge of anything placed in the pail). See figure 8 for more details. \\
+
+
+\begin{figure}[h]
+	\includegraphics[width=\medgraph,scale=0.01]{FardaySetup.png}
+	%h (here) - same location
+	%t (top) - top of page
+	%b (bottom) - bottom of page
+	%p (page) - on an extra page5
+	%! (override) - will force the specified location
+	\caption{Faraday Pail Setup. The charge sensor is set to $\pm$10 V}
+	\label{FardaySetup}
+\end{figure} 
+
+\subsection{Measuring Charge on Our Own Bodies}
+\indent We first attempted to measure the charge of our own hands by inserting our finger into the Faraday Pail. Our procedures for this part of the experiment can be summarized as follows:
+\begin{enumerate}
+	\item Scuff shoes on laboratory floor.
+	\item Insert a finger into the pail without touching the pail or cage and record charge sensor readings.
+	\item Remove finger from pail and record charge sensor readings
+	\item Touch the metal grounding plate with your finger, then repeat steps (2) and (3).
+	\item Ground the alligator clip on the grounding strap to the grounding plate and attach grounding strap to wrist.
+	\item Repeat steps (1)-(4)\\
+\end{enumerate}
+
+\indent Unsurprisingly, none of the measurements taken while wearing the grounding straps showed a significant change in charge when we inserted a finger in the Faraday Pail. This can be attributed to the fact that the grounding strap ensures that our bodies have the same electric charge as the grounding plate, and thus should cause no change in the charge of a neutral pail.\\
+\indent However, the measurements taken without wearing the grounding strap showed no significant changes in the charge of the pail as well. While this somewhat surprising considering that we were not grounded when making these measurements, it may be explained by 2 factors: 1 -- the relatively high humidity in the lab may have been enough to discharge our bodies to the surrounding air, making us more or less continuously grounded; 2 -- the sensor gave readings varying from 0-30nC even after grounding the pail and keeping the pail empty (such that the reading should have been 0nC), showing that the sensor may not have been giving accurate data and thus masked a significant change in charge. 
+
+\subsection{Separation of Charge}
+\indent After measuring the electrostatic charge on our own bodies, we measured the charge obtained by different material when rubbed against a dissimilar object. We rubbed a wooden rod, a PVC rod, and a nylon rod against Vinyl, Felt, and a cotton washcloth. We then measured the charge obtained by the rods after being rubbed with the different materials:
+\begin{table}[H]
+	\begin{tabular}{ |c|c||c|c|}
+		\hline
+	
+		\hline
+		Rod Material & Material rubbed on rod& Type of charge (+,0,-)&Amount of Charge (nC)\\
+		\hline
+		\multirow{3}{*}{Wooden Rod} &Vinyl&0&0\\
+		 &Felt&0&0\\
+		&Washcloth&0&0\\
+		\hline	
+		\multirow{3}{*}{PVC Rod}&Vinyl&-&24.80\\
+		&Felt&-&33.00\\
+		&Washcloth&-&14.40\\
+		\hline
+		\multirow{3}{*}{Nylon Rod} &Vinyl&+&5.00\\
+		&Felt&-&1.30\\
+		&Washcloth&0&0\\
+		\hline	
+	\end{tabular}
+\caption{Charge obtained by various rods after rubbing on different materials}
+\end{table}
+
+\indent As seen in Table 1, the wooden rod, even when rubbed with a sheet of vinyl, felt, and a washcloth, failed to obtain a charge. One may speculate that the wooden rod's inability to hold an electrostatic charge is due to wood being a poor conductor. Atomically speaking, the electrons of the atoms that compose the wooden rod are unable to move freely such that they can generate an electrical charge. However, the PVC rod and the Nylon rod were both able to hold a charge, and both are also poor conductors.\\
+\indent Unlike the nylon and PVC rods, the wooden rod was quite porous. The presence of air within the rod may have allowed the wooden rod to discharge into the environment, as well as limiting the amount of surface area in contact with the rubbing fabrics. Therefore, we believe that the wood's inability to hold an electrostatic charge was due to the wood being porous rather than a bad conductor.
 \newpage
-
-
-
 
 \printbibliography
 
