@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.10)  10 SEP 2019 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.10)  19 SEP 2019 17:47
 entering extended mode
 **./Report1.tex
 (Report1.tex
@@ -860,15 +860,15 @@ Package biblatex Info: Reference segment=0 on input line 29.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(65.55515pt, 433.62pt, 98.33273pt)
+* modes: 
+* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
 * v-part:(T,H,B)=(48.93872pt, 722.7pt, 73.40813pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=433.62pt
 * \textheight=722.7pt
-* \oddsidemargin=-6.71484pt
-* \evensidemargin=26.06274pt
+* \oddsidemargin=9.67395pt
+* \evensidemargin=9.67395pt
 * \topmargin=-45.33127pt
 * \headheight=8.0pt
 * \headsep=14.0pt
@@ -882,8 +882,8 @@ Package biblatex Info: Reference segment=0 on input line 29.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1122,13 +1122,13 @@ Package logreq Info: Writing requests to 'Report1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23767 strings out of 493323
- 457291 string characters out of 3139066
- 676981 words of memory out of 3000000
- 26942 multiletter control sequences out of 15000+200000
+ 23769 strings out of 493323
+ 457311 string characters out of 3139066
+ 676999 words of memory out of 3000000
+ 26943 multiletter control sequences out of 15000+200000
  543981 words of font info for 72 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 40i,10n,63p,2857b,1820s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,10n,63p,2857b,1806s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
@@ -1140,7 +1140,7 @@ cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Report1.pdf (15 pages, 2506138 bytes).
+Output written on Report1.pdf (15 pages, 2506018 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
