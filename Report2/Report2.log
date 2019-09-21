@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.10)  20 SEP 2019 19:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.10)  20 SEP 2019 20:51
 entering extended mode
 **./Report2.tex
 (Report2.tex
@@ -871,9 +871,9 @@ Package biblatex Info: Reference segment=0 on input line 29.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
+Missing character: There is no Â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ™ in font cmbx12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -888,108 +888,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
+<frbdy.png, id=1, 243.91125pt x 89.58469pt>
+File: frbdy.png Graphic file (type png)
+ <use frbdy.png>
+Package pdftex.def Info: frbdy.png used on input line 52.
+(pdftex.def)             Requested size: 2.43776pt x 0.89534pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<FieldStrength.png, id=15, 1204.5pt x 652.68843pt>
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+<FieldStrength.png, id=17, 1204.5pt x 652.68843pt>
 File: FieldStrength.png Graphic file (type png)
  <use FieldStrength.png>
-Package pdftex.def Info: FieldStrength.png used on input line 55.
+Package pdftex.def Info: FieldStrength.png used on input line 77.
 (pdftex.def)             Requested size: 12.03835pt x 6.52327pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no Â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+[2 <./frbdy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
 
-[2 <./FieldStrength.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Missing character: There is no Â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+[3 <./FieldStrength.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Missing character: There is no Â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-<LocvTime.png, id=23, 1204.5pt x 340.27126pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+<LocvTime.png, id=29, 1204.5pt x 340.27126pt>
 File: LocvTime.png Graphic file (type png)
  <use LocvTime.png>
-Package pdftex.def Info: LocvTime.png used on input line 123.
+Package pdftex.def Info: LocvTime.png used on input line 145.
 (pdftex.def)             Requested size: 12.03835pt x 3.40083pt.
 
-<SpacevTime.png, id=24, 1204.5pt x 340.27126pt>
+<SpacevTime.png, id=30, 1204.5pt x 340.27126pt>
 File: SpacevTime.png Graphic file (type png)
  <use SpacevTime.png>
-Package pdftex.def Info: SpacevTime.png used on input line 133.
+Package pdftex.def Info: SpacevTime.png used on input line 155.
 (pdftex.def)             Requested size: 12.03835pt x 3.40083pt.
 
-<ChargevTime.png, id=25, 1204.5pt x 340.27126pt>
+<ChargevTime.png, id=31, 1204.5pt x 340.27126pt>
 File: ChargevTime.png Graphic file (type png)
  <use ChargevTime.png>
-Package pdftex.def Info: ChargevTime.png used on input line 144.
+Package pdftex.def Info: ChargevTime.png used on input line 166.
 (pdftex.def)             Requested size: 12.03835pt x 3.40083pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<scan.png, id=26, 861.2175pt x 321.45094pt>
+<scan.png, id=32, 861.2175pt x 321.45094pt>
 File: scan.png Graphic file (type png)
  <use scan.png>
-Package pdftex.def Info: scan.png used on input line 156.
+Package pdftex.def Info: scan.png used on input line 178.
 (pdftex.def)             Requested size: 8.60742pt x 3.21272pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-[4 <./LocvTime.png> <./SpacevTime.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-[5 <./ChargevTime.png> <./scan.png>] (Report2.aux)
+Missing character: There is no Â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+[5 <./LocvTime.png> <./SpacevTime.png>]
+Missing character: There is no Â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+ [6 <./ChargevTime.png> <./scan.png>]
+[7] (Report2.aux)
 Package logreq Info: Writing requests to 'Report2.run.xml'.
 \openout1 = `Report2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23489 strings out of 493323
- 451541 string characters out of 3139066
- 678921 words of memory out of 3000000
- 26672 multiletter control sequences out of 15000+200000
- 542225 words of font info for 65 fonts, out of 3000000 for 9000
+ 23699 strings out of 493323
+ 455986 string characters out of 3139066
+ 679995 words of memory out of 3000000
+ 26880 multiletter control sequences out of 15000+200000
+ 542572 words of font info for 66 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 40i,11n,63p,819b,1718s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,63p,819b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
@@ -1000,10 +1029,12 @@ e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Report2.pdf (5 pages, 679816 bytes).
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Report2.pdf (7 pages, 709218 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,5 +16,95 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{electricfield}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Electric Field}
+    \verb{url}
+    \verb http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elefie.html
+    \endverb
+    \field{journaltitle}{Electric field}
+  \endentry
+
+  \entry{mazur_pedigo_crouch_dourmashkin_bieniek_banfi_jisrawi_setlur_2016}{book}{}
+    \name{author}{8}{}{%
+      {{hash=ME}{%
+         family={Mazur},
+         familyi={M\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pedigo},
+         familyi={P\bibinitperiod},
+         given={Daryl},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CCH}{%
+         family={Crouch},
+         familyi={C\bibinitperiod},
+         given={Catherine\bibnamedelima H.},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=DPA}{%
+         family={Dourmashkin},
+         familyi={D\bibinitperiod},
+         given={Peter\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BRJ}{%
+         family={Bieniek},
+         familyi={B\bibinitperiod},
+         given={Ronald\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Banfi},
+         familyi={B\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=JNM}{%
+         family={Jisrawi},
+         familyi={J\bibinitperiod},
+         given={Najeh\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SGS}{%
+         family={Setlur},
+         familyi={S\bibinitperiod},
+         given={Girish\bibnamedelima S.},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson Education Limited}%
+    }
+    \strng{namehash}{ME+1}
+    \strng{fullhash}{MEPDCCHDPABRJBAJNMSGS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Principles and practice of physics. Principles}
+    \field{year}{2016}
+  \endentry
+
+  \entry{physcls}{misc}{}
+    \list{publisher}{1}{%
+      {The Physics Classroom}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{The Physics Classroom Tutorial}
+    \verb{url}
+    \verb https://www.physicsclassroom.com/class/estatics/Lesson-3/Newton-s-Law
+    \verb s-and-the-Electrical-Force
+    \endverb
+    \field{journaltitle}{The Physics Classroom}
+  \endentry
+\enddatalist
 \endinput
