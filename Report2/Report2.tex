@@ -14,7 +14,7 @@
 \bibliography{Biblio}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
 \graphicspath{{./}{}}% You can add the path for the images in the empty brackets 
-\title{Study of Electrostatics: Generation and Measurement of Charge}
+\title{Study of Coulomb's Law}
 \author{Josh Goldfaden, Daniel Briseno}
 \date{}
 \newdimen\graph
@@ -27,8 +27,17 @@
 \tinygraph = 1.5in
 \renewcommand{\arraystretch}{1.5}
 \begin{document}
+	\maketitle
 	\section{Abstract}
-	In this series of experiments, Coulomb’s law was evaluated experimentally through first charging a top (T) strip of tape and a bottom (B) strip of tape and analyzing their interactions. In particular it was observed that (insert observations). Further, a virtual lab was conducted in which a hanging sphere was suspended, and its force body diagram was diagrammed and analyzed. Further, this sphere is placed in close proximity to a neighboring sphere attached to a rod, and their interactions were studied, specifically the magnitude of the Coulomb's force the suspended ball experienced was computed. It was found that (insert findings). One final virtual analysis that simulated the interaction between a suspended ball and the center of a charged rod. In this experiment, it was determined that (insert findings). In the final portion of the lab, Coulomb’s law was used to determine the discharge rate of a series of a virtual series of suspended spheres. 
+	In this series of experiments, a virtual lab was conducted in which a hanging sphere was suspended, and its force body diagram was diagrammed and analyzed. Further, this sphere is placed in close proximity to a neighboring sphere attached to a rod, and their interactions were studied, specifically the magnitude of the Coulomb's force the suspended ball experienced was computed. It was found that the electric field at a distance $r$ from the rod of length $L$ and with charge $Q$ is given by:
+	\begin{align*}
+		\vec{E} &=  \frac{kQ}{r\sqrt{r^2(L/2)^2}}\hat{i}
+	\end{align*}
+	In the final portion of the lab, Coulomb’s law was used to determine the discharge rate of a series of suspended spheres. We observed that when the system is at equilibrium,the electrostatic force acting on each ball can be approximated by: 
+	\begin{align*}
+	F^{coul} &\approx \frac{mgR}{2L}
+	\end{align*}
+	Where $m$ is the mass of the ball, $R$ the distance between the two balls, $L$ the length of the string by which the spheres are suspended, and $g= 9.8\text{m/s}^2$ is the gravitational constant at Earth's surface.
 	\section{Introduction}
 	One experimental law of physics that is fundamental in understanding electrostatic forces is Coulomb’s law: 
 	\begin{align}
@@ -97,12 +106,18 @@
 	\section{Discharge Rate}
 	In this virtual lab, we wanted to measure the rate of electrical discharge of an object. To do so, we derived equations needed to determine the amount of charge on two balls as a function of their separation.\\
 	
-	The derivation is as follows: In a state of equilibrium, we require that the electrostatic force be equal to the gravitational force in the $\hat{j}$ direction. So for R = distance between the two balls, L = length of the strings, $m$ = mass of each ball, and g = 9.8m/$\text{s}^2$, we compute:
+	\indent Figure 5 shows the free-body diagram used to visualize the derivation of the electrostatic force acting one of the balls. The derivation is as follows: In a state of equilibrium, we require that the vector sum of all the forces be 0. Also, note that the electrostatic force $\vec{F^{coul}}$ is horizontal and thus points only in the $\hat{i}$ direction. Therefore, the sum of the gravitational force $\vec{F^{grav}}$ and the tension force $\vec{F^{tens}}$ in the $\hat{j}$ direction must be zero. So for $R$ = distance between the two balls, $L$ = length of the strings, $m$ = mass of each ball, and $g$ = 9.8m/$\text{s}^2$ we can derive:
 	\begin{align*}
-		F^{coul} &= mg \sin(\theta)\\
-		F^{coul} &= mg \frac{R}{2L}
+		\vec{F^{tens}} \cdot \hat{j} &= mg\\
+		\cos(\theta)F^{tens} &= mg\\
+		F^{tens} &= \frac{mg}{\cos(\theta)}\\
+		\implies F^{coul} &= F^{tens}\cdot \hat{i} = \frac{mg}{\cos(\theta)}\sin(\theta)\\
+		&=mg\tan(\theta)\\
+		F^{coul} &\approx \frac{mgR}{2L}
 	\end{align*}
-	Also note that R can be given by $R = |X_1-X_2|$ where $X_1$ is the location of ball 1 and $X_2$ is the location of ball 2. Using these formulas, we were able to obtain the data in Figures 2-4.\\
+	where the last step is justified since for $L>>R/2$ and $\theta << 0$, $tan(\theta) \approx \sin(\theta) = (R/2)/L$.\\
+	
+	\indent Also note that R can be given by $R = |X_1-X_2|$ where $X_1$ is the location of ball 1 and $X_2$ is the location of ball 2. Using these formulas, we were able to obtain the data in Figures 2-4.\\
 	 
 		\begin{figure}[h]
 		\includegraphics[width=\linewidth,scale=0.01]{LocvTime.png}
@@ -136,6 +151,18 @@
 	\label{Charge}
 	
 \end{figure}
+
+	\begin{figure}[h]
+	\includegraphics[width=\linewidth,scale=0.01]{scan.png}
+	%h (here) - same location
+	%t (top) - top of page
+	%b (bottom) - bottom of page
+	%p (page) - on an extra page5
+	%! (override) - will force the specified location
+	\caption{Free-body diagram of one of the charged balls suspended from a string}
+	\label{scn}
+\end{figure}
+
 
 \indent The linear regression line given in Figure 3 allows us to predict the time at which the two balls will touch. Given that the distance R at any time $t$ is given by $R = -3.380\times10^{-5}t + 0.09171$, we can predict that $R=0 \implies t \approx 2713$s which corresponds approximately 45 minutes.\\
 
