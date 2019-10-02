@@ -1,0 +1,43 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{electricpotentialenergy}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Electric Potential Energy}
+    \verb{url}
+    \verb http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elepe.html
+    \endverb
+    \field{journaltitle}{Electric potential energy}
+  \endentry
+
+  \entry{field}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Electric/Electrostatic Potential}
+    \verb{url}
+    \verb https://www.cyberphysics.co.uk/topics/electricity/higher_electricity/
+    \verb electric_potential.htm
+    \endverb
+    \field{journaltitle}{Electric Potential}
+  \endentry
+\enddatalist
+\endinput
