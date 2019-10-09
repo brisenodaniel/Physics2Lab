@@ -17,6 +17,20 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{parallel}{misc}{}
+    \verb{url}
+    \verb http://hyperphysics.phy-astr.gsu.edu/hbase/electric/pplate.html
+    \endverb
+    \field{journaltitle}{Parallel Plate Capacitor}
+  \endentry
+
+  \entry{ideal}{book}{}
+    \verb{url}
+    \verb https://qph.fs.quoracdn.net/main-qimg-380351e085af6241cca1c46e0c86e36
+    \verb b
+    \endverb
+  \endentry
+
   \entry{cap}{misc}{}
     \verb{url}
     \verb https://farside.ph.utexas.edu/teaching/302l/lectures/node46.html
