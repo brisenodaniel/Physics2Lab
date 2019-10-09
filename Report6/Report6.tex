@@ -55,7 +55,13 @@
 		\label{Ideal}
 	\end{figure}
 
-	\indent We often connect capacitors to each other in series and in parallel. A depiction of capacitors in parallel can be seen in Figure \ref{Parallel}.\\
+	\indent We often connect capacitors to each other in series and in parallel. A depiction of capacitors in parallel can be seen in Figure \ref{Parallel}. In this case we know that the voltage across the two capacitors is equal\cite{cap} and thus we can derive :
+	\begin{align*}
+	C_{total} &= \frac{Q_{total}}{V} \\
+	&=\frac{Q_1+Q_2}{V}\\
+	&= \frac{Q_1}{V} + \frac{Q_2}{V}\\
+	&= C_1 + C_2
+	\end{align*}
 	 
 	\begin{figure}[h]
 		\includegraphics[width=\smallgraph,scale=0.01]{Parallel.png}
@@ -78,13 +84,6 @@
 	\label{Series}
 \end{figure}
 
-	\indent In this case we know that the voltage across the two capacitors is equal\cite{cap} and thus we can derive :
-	\begin{align*}
-	C_{total} &= \frac{Q_{total}}{V} \\
-	&=\frac{Q_1+Q_2}{V}\\
-	&= \frac{Q_1}{V} + \frac{Q_2}{V}\\
-	&= C_1 + C_2
-	\end{align*}
 	
 	\indent Figure \ref{Series} shows two capacitors connected in series. In this case we know that the excess charge $Q$ across both capacitors must be equal \cite{cap}, and we similarly compute:\\
 	\begin{align*}
@@ -104,7 +103,7 @@
 	\end{align}
 	
 	\section{Experimental confirmation of equations 2 and 3}
-	\indent In this section of the experiment we seek to gain empirical confirmation of equations (2) and (3) derived in the introduction.\\
+	\indent In this section of the experiment we seek to gain empirical confirmation of equations (3) and (4) derived in the introduction.\\
 	
 	\indent In order to do this, we measured the capacitance of three capacitors A,B, and C. The results of these measurements can be seen in Table \ref{abc} 
 
